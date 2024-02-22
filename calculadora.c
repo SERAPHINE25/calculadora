@@ -25,18 +25,22 @@ int main()
         int suma=0;
         suma= var1 + var2;
         printf("\n\t La suma es: %d",suma);
+        break;
       case 2:
         int resta=0;
         resta = var1 - var2;
         printf("\n\t La resta es: %d",resta);
+        break;
       case 3:
         int mult=0;
         mult = var1*var2;
         printf("\n\t La multiplicación es: %d",mult);
+        break;
       case 4:
         float div=0;
         div = var1/var2;
         printf("\n\t La división es: %d",div);
+        break;
       default:
         printf("\n\t Opción no valida");
     }
