@@ -16,7 +16,7 @@ int main()
   printf("\n\t 2 - RESTA");
   printf("\n\t 3 - MULTIPLICACIÓN");
   printf("\n\t 4 - DIVISION");
-  printf("\n\t Ingresa la opción a realizar");
+  printf("\n\t Ingresa la opción a realizar: ");
   scanf("%d",&opc);
 
   switch(opc)
@@ -24,25 +24,25 @@ int main()
       case 1:
         int suma=0;
         suma= var1 + var2;
-        printf("\n\t La suma es: %d",suma);
+        printf("\n\t La suma es: %d\n",suma);
         break;
       case 2:
         int resta=0;
         resta = var1 - var2;
-        printf("\n\t La resta es: %d",resta);
+        printf("\n\t La resta es: %d\n",resta);
         break;
       case 3:
         int mult=0;
         mult = var1*var2;
-        printf("\n\t La multiplicación es: %d",mult);
+        printf("\n\t La multiplicación es: %d\n",mult);
         break;
       case 4:
         float div=0;
         div = var1/var2;
-        printf("\n\t La división es: %d",div);
+        printf("\n\t La división es: %f\n",div);
         break;
       default:
-        printf("\n\t Opción no valida");
+        printf("\n\t Opción no valida\n");
     }
   return 0;
 }
