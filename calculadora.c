@@ -7,6 +7,11 @@ int main()
   int opc;
   int var1=0, var2=0;
   printf("\n\t\t BIENVENIDO \n");
+  printf("\n\t Ingresa el primer número: ");
+  scanf("%d",&var1);
+  printf("\n\t Ingresa el segundo número: ");
+  scanf("%d",&var2);
+  printf("\n\n")
   printf("\n\t 1 - SUMA");
   printf("\n\t 2 - RESTA");
   printf("\n\t 3 - MULTIPLICACIÓN");
@@ -18,7 +23,13 @@ int main()
     {
       case 1:
       case 2:
+        int resta=0;
+        resta = var1 - var2;
+        printf("\n\t La resta es: %d",resta);
       case 3:
+        int mult=0;
+        mult = var1 - var2;
+        printf("\n\t La multiplicación es: %d",resta);
       case 4:
       default:
         printf("\n\t Opción no valida");
