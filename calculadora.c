@@ -11,7 +11,7 @@ int main()
   scanf("%d",&var1);
   printf("\n\t Ingresa el segundo número: ");
   scanf("%d",&var2);
-  printf("\n\n")
+  printf("\n\n");
   printf("\n\t 1 - SUMA");
   printf("\n\t 2 - RESTA");
   printf("\n\t 3 - MULTIPLICACIÓN");
@@ -22,15 +22,21 @@ int main()
   switch(opc)
     {
       case 1:
+        int suma=0;
+        suma= var1 + var2;
+        printf("\n\t La suma es: %d",suma);
       case 2:
         int resta=0;
         resta = var1 - var2;
         printf("\n\t La resta es: %d",resta);
       case 3:
         int mult=0;
-        mult = var1 - var2;
-        printf("\n\t La multiplicación es: %d",resta);
+        mult = var1*var2;
+        printf("\n\t La multiplicación es: %d",mult);
       case 4:
+        float div=0;
+        div = var1/var2;
+        printf("\n\t La división es: %d",div);
       default:
         printf("\n\t Opción no valida");
     }
